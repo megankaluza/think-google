@@ -1,0 +1,63 @@
+@import "_reset.scss";
+
+//Global Variables
+
+$background: #e0e0e0;
+$dark: #263238;
+$royal: #0d47a1;
+$turtle: #009688;
+
+.text {
+  // position: absolute;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.logo {
+  width: 10em;
+}
+
+.navbar {
+  font-size: 1.1em;
+  padding: 1.2%;
+  margin: 0;
+}
+
+.one {
+  position: relative;
+  background: url('../img/shopping.jpg');
+  background-repeat: no-repeat;
+}
+
+.two {
+  // position: relative;
+  background: url('../img/mobile.jpg');
+  background-repeat: no-repeat;
+}
+
+.three {
+  background: url('../img/media.jpg');
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 93.75em;
+  margin: 0 auto;
+  background-image: center;
+  display: block;
+}
+
+//Mobile
+@media only screen
+  and (max-width: 600px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+//iPad
+@media only screen
+  and (min-width: 601px)
+  and (max-width: 1000px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}

@@ -1,0 +1,37 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.text {
+  border: 1px solid black;
+  width: 50%; }
+
+.logo {
+  width: 10em; }
+
+.navbar {
+  font-size: 1.1em;
+  padding: 1.2%;
+  margin: 0; }
+
+.one {
+  position: relative;
+  background: url("../img/shopping.jpg");
+  background-repeat: no-repeat; }
+
+.two {
+  background: url("../img/mobile.jpg");
+  background-repeat: no-repeat; }
+
+.three {
+  background: url("../img/media.jpg");
+  background-repeat: no-repeat; }
+
+.wrapper {
+  width: 93.75em;
+  margin: 0 auto;
+  background-image: center;
+  display: block; }
+
+/*# sourceMappingURL=styles.css.map */
