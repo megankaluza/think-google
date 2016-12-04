@@ -53,6 +53,10 @@ h4 {
   // position: relative;
   background: url('../img/mobile.jpg');
   background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
 }
 
 .three {
@@ -81,6 +85,30 @@ h4 {
   padding: 1.3em;
   top: 235px;
   width: 90%;
+}
+
+.two {
+  height: 115px;
+}
+
+.textTwo {
+  float: right;
+  font-size: .8em;
+  padding: 1.3em;
+  width: 60%;
+  height: 115px;
+}
+
+.three {
+  height: 115px;
+}
+
+.textThree {
+  float: right;
+  font-size: .8em;
+  padding: 1.3em;
+  width: 60%;
+  height: 115px;
 }
 
 }
