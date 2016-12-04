@@ -7,10 +7,26 @@ $dark: #263238;
 $royal: #0d47a1;
 $turtle: #009688;
 
-.text {
-  // position: absolute;
-  border: 1px solid black;
-  width: 50%;
+body {
+  color: white;
+  font-family: 'RobotoDraft','Helvetica Neue',Helvetica,Arial;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.textOne {
+  background: $dark;
+}
+
+.textTwo {
+  background: $royal;
+}
+
+.textThree {
+  background: $turtle;
 }
 
 .logo {
@@ -26,7 +42,11 @@ $turtle: #009688;
 .one {
   position: relative;
   background: url('../img/shopping.jpg');
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 600px;
 }
 
 .two {
@@ -40,17 +60,28 @@ $turtle: #009688;
   background-repeat: no-repeat;
 }
 
-.wrapper {
-  width: 93.75em;
-  margin: 0 auto;
-  background-image: center;
-  display: block;
-}
+// .wrapper {
+//   width: 93.75em;
+//   margin: 0 auto;
+// }
 
 //Mobile
 @media only screen
   and (max-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+.one {
+  // position: absolute;
+  height: 405px;
+ }
+
+.textOne {
+  position: absolute;
+  margin: 2em;
+  padding: 1.3em;
+  top: 235px;
+  width: 90%;
+}
 
 }
 
@@ -59,5 +90,6 @@ $turtle: #009688;
   and (min-width: 601px)
   and (max-width: 1000px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
 
 }
