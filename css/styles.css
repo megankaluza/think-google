@@ -11,6 +11,14 @@ h4 {
   font-size: 1.5em;
   font-weight: 400; }
 
+.logo {
+  width: 10em; }
+
+.navbar {
+  font-size: 1.1em;
+  padding: 1.2%;
+  margin: 0; }
+
 .textOne {
   background: #263238; }
 
@@ -20,16 +28,7 @@ h4 {
 .textThree {
   background: #009688; }
 
-.logo {
-  width: 10em; }
-
-.navbar {
-  font-size: 1.1em;
-  padding: 1.2%;
-  margin: 0; }
-
 .one {
-  position: relative;
   background: url("../img/shopping.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +85,7 @@ h4 {
     padding: 1.3em;
     width: 60%;
     height: 115px; } }
-@media only screen and (min-width: 601px) and (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 601px) and (max-width: 980px) and (-webkit-min-device-pixel-ratio: 2) {
   .one {
     height: 405px; }
 
@@ -103,6 +102,8 @@ h4 {
     height: 300px; }
 
   .textTwo {
+    position: relative;
+    top: 193px;
     font-size: .9em;
     padding: 1.3em; }
 
@@ -112,6 +113,8 @@ h4 {
     height: 300px; }
 
   .textThree {
+    position: relative;
+    top: 193px;
     font-size: .9em;
     padding: 1.3em; }
 
@@ -120,7 +123,7 @@ h4 {
 
   .sentence {
     display: block; } }
-@media screen and (min-width: 1001px) and (max-width: 3000px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 981px) and (max-width: 3000px) and (-webkit-min-device-pixel-ratio: 1) {
   .one {
     position: relative; }
 
@@ -141,7 +144,7 @@ h4 {
 
   .textTwo {
     position: relative;
-    top: 195px;
+    top: 194.3px;
     font-size: .9em;
     padding: 1.3em; }
 
@@ -155,8 +158,11 @@ h4 {
 
   .textThree {
     position: relative;
-    top: 195px;
+    top: 194.3px;
     font-size: .9em;
-    padding: 1.3em; } }
+    padding: 1.3em; }
+
+  .sentence {
+    display: block; } }
 
 /*# sourceMappingURL=styles.css.map */

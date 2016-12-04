@@ -17,6 +17,16 @@ h4 {
   font-weight: 400;
 }
 
+.logo {
+  width: 10em;
+}
+
+.navbar {
+  font-size: 1.1em;
+  padding: 1.2%;
+  margin: 0;
+}
+
 .textOne {
   background: $dark;
 }
@@ -29,18 +39,8 @@ h4 {
   background: $turtle;
 }
 
-.logo {
-  width: 10em;
-}
-
-.navbar {
-  font-size: 1.1em;
-  padding: 1.2%;
-  margin: 0;
-}
-
 .one {
-  position: relative;
+  // position: relative;
   background: url('../img/shopping.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,6 @@ h4 {
 }
 
 .two {
-  // position: relative;
   background: url('../img/mobile.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -72,150 +71,153 @@ h4 {
   display: none;
 }
 
-// .wrapper {
-//   width: 93.75em;
-//   margin: 0 auto;
-// }
-
 //Mobile
 @media only screen
-  and (max-width: 600px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+and (max-width: 600px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
-.one {
-  height: 405px;
- }
+  .one {
+    height: 405px;
+  }
 
-.textOne {
-  position: absolute;
-  margin: 1em;
-  padding: 1.4em;
-  top: 225px;
-  width: 90%;
-}
+  .textOne {
+    position: absolute;
+    margin: 1em;
+    padding: 1.4em;
+    top: 225px;
+    width: 90%;
+  }
 
-.two {
-  height: 115px;
-}
+  .two {
+    height: 115px;
+  }
 
-.textTwo {
-  float: right;
-  font-size: .8em;
-  padding: 1.3em;
-  width: 60%;
-  height: 115px;
-}
+  .textTwo {
+    float: right;
+    font-size: .8em;
+    padding: 1.3em;
+    width: 60%;
+    height: 115px;
+  }
 
-.three {
-  height: 115px;
-}
+  .three {
+    height: 115px;
+  }
 
-.textThree {
-  float: right;
-  font-size: .8em;
-  padding: 1.3em;
-  width: 60%;
-  height: 115px;
-}
+  .textThree {
+    float: right;
+    font-size: .8em;
+    padding: 1.3em;
+    width: 60%;
+    height: 115px;
+  }
 
 }
 
 //iPad
 @media only screen
-  and (min-width: 601px)
-  and (max-width: 1000px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+and (min-width: 601px)
+and (max-width: 980px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
-.one {
-  height: 405px;
- }
+  .one {
+    height: 405px;
+  }
 
-.textOne {
-  position: absolute;
-  margin: 2em;
-  padding: 2em;
-  top: 100px;
-  width: 40%;
-}
+  .textOne {
+    position: absolute;
+    margin: 2em;
+    padding: 2em;
+    top: 100px;
+    width: 40%;
+  }
 
-.two {
-  float: left;
-  width: 50%;
-  height: 300px;
-}
+  .two {
+    float: left;
+    width: 50%;
+    height: 300px;
+  }
 
-.textTwo {
-  font-size: .9em;
-  padding: 1.3em;
-}
+  .textTwo {
+    position: relative;
+    top: 193px;
+    font-size: .9em;
+    padding: 1.3em;
+  }
 
-.three {
-  float: right;
-  width: 50%;
-  height: 300px;
-}
+  .three {
+    float: right;
+    width: 50%;
+    height: 300px;
+  }
 
-.textThree {
-  font-size: .9em;
-  padding: 1.3em;
-}
+  .textThree {
+    position: relative;
+    top: 193px;
+    font-size: .9em;
+    padding: 1.3em;
+  }
 
-.clearfix {
-  clear: both;
- }
+  .clearfix {
+    clear: both;
+  }
 
-.sentence {
-  display: block;
-}
+  .sentence {
+    display: block;
+  }
 }
 
 //Laptop or Computer
 @media screen
-  and (min-width: 1001px)
-  and (max-width: 3000px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+and (min-width: 981px)
+and (max-width: 3000px)
+and (-webkit-min-device-pixel-ratio: 1) {
 
-.one {
-  position: relative;
-}
+  .one {
+    position: relative;
+  }
 
-.textOne {
-  position: absolute;
-  margin: 2em;
-  padding: 2em;
-  top: 200px;
-  width: 20%;
-}
+  .textOne {
+    position: absolute;
+    margin: 2em;
+    padding: 2em;
+    top: 200px;
+    width: 20%;
+  }
 
-.two {
- position: relative;
- float: right;
- width: 30%;
- height: 300px;
- top: -600px;
- margin-left: 60em;
-}
+  .two {
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 300px;
+    top: -600px;
+    margin-left: 60em;
+  }
 
-.textTwo {
-  position: relative;
-  top: 195px;
-  font-size: .9em;
-  padding: 1.3em;
-}
+  .textTwo {
+    position: relative;
+    top: 194.3px;
+    font-size: .9em;
+    padding: 1.3em;
+  }
 
-.three {
- position: relative;
- float: right;
- width: 30%;
- height: 300px;
- top: -600px;
- margin-left: 60em;
-}
+  .three {
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 300px;
+    top: -600px;
+    margin-left: 60em;
+  }
 
-.textThree {
-  position: relative;
-  top: 195px;
-  font-size: .9em;
-  padding: 1.3em;
-}
+  .textThree {
+    position: relative;
+    top: 194.3px;
+    font-size: .9em;
+    padding: 1.3em;
+  }
+
+  .sentence {
+    display: block;
+  }
 }
