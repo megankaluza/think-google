@@ -4,13 +4,15 @@
 
 #### By _**Megan Kaluza**_
 
+![screenshot](screen_shot.png)
+
 ## Description
 
-_Replicate the responsive top section of Think with Google. It does not need to be pixel-perfect (though as an aspiring front-end developer, you should always try to make it so), nor does it need to use the same styling/code techniques as their actual website. Prioritize responsiveness and structure. You have enough CSS knowledge to accomplish this without having to peak at their code -- resist temptation!
+Replicate the responsive top section of Think with Google. It does not need to be pixel-perfect (though as an aspiring front-end developer, you should always try to make it so), nor does it need to use the same styling/code techniques as their actual website. Prioritize responsiveness and structure. You have enough CSS knowledge to accomplish this without having to peak at their code -- resist temptation!
 
 As always, it does not need to incorporate the same assets (e.g. images, fonts).
 
-USE ANY METHOD OF RESPONSIVE LAYOUT YOU'RE COMFORTABLE WITH -- whether it's 100% custom floats/queries, Bootstrap's grid, or a favorite framework from Thursday's classwork._
+USE ANY METHOD OF RESPONSIVE LAYOUT YOU'RE COMFORTABLE WITH -- whether it's 100% custom floats/queries, Bootstrap's grid, or a favorite framework from Thursday's classwork.
 
 ## Setup/Installation Requirements
 
