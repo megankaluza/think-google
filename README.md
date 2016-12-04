@@ -8,11 +8,19 @@
 
 ## Description
 
-Replicate the responsive top section of Think with Google. It does not need to be pixel-perfect (though as an aspiring front-end developer, you should always try to make it so), nor does it need to use the same styling/code techniques as their actual website. Prioritize responsiveness and structure. You have enough CSS knowledge to accomplish this without having to peak at their code -- resist temptation!
+_Objectives:_
 
-As always, it does not need to incorporate the same assets (e.g. images, fonts).
+* _Relative units used where appropriate._
 
-USE ANY METHOD OF RESPONSIVE LAYOUT YOU'RE COMFORTABLE WITH -- whether it's 100% custom floats/queries, Bootstrap's grid, or a favorite framework from Thursday's classwork.
+* _Page(s) respond to at least three different screen sizes._
+
+* _Media queries are your own. No Bootstrap._
+
+* _Images are fluid._
+
+* _Understanding of responsive design patterns demonstrated. If prompted, you can discuss your project with an instructor using the correct terminology._
+
+* _Project is in a polished, portfolio-quality state._
 
 ## Setup/Installation Requirements
 
