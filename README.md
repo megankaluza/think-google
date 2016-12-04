@@ -25,6 +25,9 @@ _Objectives:_
 ## Setup/Installation Requirements
 
 * _Clone this repository https://github.com/megankaluza/think-google.git_
+
+_Install sass_
+
 * _gem install sass_
 * _sass --watch ._
 * _Open in browser of your choice_
