@@ -16,10 +16,10 @@ USE ANY METHOD OF RESPONSIVE LAYOUT YOU'RE COMFORTABLE WITH -- whether it's 100%
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/megankaluza/responsive-google.git_
+* _Clone this repository https://github.com/megankaluza/think-google.git_
 * _gem install sass_
-* _sass styles.scss_
 * _sass --watch ._
+* _Open in browser of your choice_
 
 ## Known Bugs
 
